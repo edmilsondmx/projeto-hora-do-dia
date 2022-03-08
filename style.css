@@ -19,7 +19,12 @@ section{
 }
 #txthora{
     text-align: center;
-    font: bold 1em arial;
+    font: bold 1.9em arial;
+    background-color: rgb(28, 13, 46);
+    color: whitesmoke;
+    width: 50%;
+    border-radius: 10px;
+    margin: auto;
 }
 #img{
     text-align: center;

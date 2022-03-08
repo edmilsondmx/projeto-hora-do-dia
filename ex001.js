@@ -14,7 +14,7 @@
         hora = checkTime(hora)
         minuto = checkTime(minuto)
         segundo = checkTime(segundo)
-        window.document.querySelector('div#txthora').innerHTML = (`Agora são ${hora} horas, ${minuto} minutos e ${segundo} segundos.`)
+        window.document.querySelector('div#txthora').innerHTML = (`${hora}:${minuto}:${segundo}`)
         t = setTimeout(function(){
             startTime()
         }, 500)
